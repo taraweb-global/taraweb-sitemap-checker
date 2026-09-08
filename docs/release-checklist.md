@@ -1,0 +1,34 @@
+# Release checklist
+
+Use this before publishing a package version.
+
+## Required
+
+- Confirm `package.json` uses the intended package name and repository metadata.
+- Confirm `LICENSE`, `README.md`, `CHANGELOG.md`, and linked docs are included in the npm package.
+- Run `npm ci` from a clean install when registry access is available.
+- Run `npm run verify:release`.
+- Review the `npm pack --dry-run` file list printed by `npm run pack:dry-run`.
+- Confirm both package binaries run through npm-style `.bin` symlinks, not only
+  from direct `dist` paths.
+- Confirm GitHub repository description, topics, and homepage are current.
+- Confirm whether an npm release is intended. Publishing the public GitHub
+  repository does not authorize or require an npm release.
+
+## Before expanding the 1.x API
+
+- Revisit whether `getCiPolicyPreset()` should remain public alongside `resolveCiPolicy()`.
+- Keep `sitemap-validator-live` separate from the root library API unless live-audit types are intentionally supported as public contracts.
+- Avoid adding page-level audits to the core `sitemap-validator` command.
+
+## Hardening backlog
+
+- Keep the web transport's DNS-address pinning and redirect revalidation covered
+  by tests. The separate CLI live wrapper still relies on its guarded fetch
+  adapter and should be deployed behind egress controls for untrusted targets.
+- Split the remaining live audit and report code if `src/live-cli.ts` keeps
+  growing.
+- Decide whether to remove `GOOGLE_NEWS_TITLE_TOO_LONG`, which is not supported
+  by the current Google News documentation or XSD but is part of the published
+  diagnostic registry.
+
