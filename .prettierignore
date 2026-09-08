@@ -1,0 +1,7 @@
+dist/
+node_modules/
+benchmarks/generated/
+benchmarks/baseline.json
+reports/
+sitemap-report*.json
+

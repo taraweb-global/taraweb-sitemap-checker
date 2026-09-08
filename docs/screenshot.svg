@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title description">
+  <title id="title">TaraWeb Sitemap Checker interface</title>
+  <desc id="description">Illustrative dark interface showing a sitemap validation form and summary results for example.com.</desc>
+  <rect width="1440" height="900" fill="#060914"/>
+  <rect x="60" y="38" width="1320" height="68" rx="12" fill="#0d1020" stroke="#30344c"/>
+  <text x="92" y="82" fill="#f1f2f8" font-family="Arial, sans-serif" font-size="27" font-weight="700">Tara<tspan fill="#f57105">Web.</tspan></text>
+  <text x="60" y="165" fill="#c8b4ff" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">TARAWEB / WEBSITE TOOLS</text>
+  <text x="60" y="225" fill="#f1f2f8" font-family="Arial, sans-serif" font-size="52" font-weight="700">A clearer view of your <tspan fill="#f57105">sitemap.</tspan></text>
+  <rect x="60" y="270" width="1320" height="210" rx="18" fill="#0d1020" stroke="#30344c"/>
+  <text x="92" y="316" fill="#f1f2f8" font-family="Arial, sans-serif" font-size="22" font-weight="700">TaraWeb Sitemap Checker</text>
+  <text x="92" y="360" fill="#b1b6ca" font-family="Arial, sans-serif" font-size="14">Sitemap URL</text>
+  <rect x="92" y="378" width="955" height="60" rx="9" fill="#060914" stroke="#555a73"/>
+  <text x="116" y="415" fill="#f1f2f8" font-family="Arial, sans-serif" font-size="18">https://example.com/sitemap.xml</text>
+  <rect x="1063" y="378" width="281" height="60" rx="9" fill="#f57105"/>
+  <text x="1130" y="415" fill="#150900" font-family="Arial, sans-serif" font-size="17" font-weight="700">Validate sitemap →</text>
+  <text x="92" y="462" fill="#b1b6ca" font-family="Arial, sans-serif" font-size="14">Public HTTP / HTTPS URLs · Up to 20 sitemaps and 5,000 entries</text>
+  <text x="60" y="535" fill="#f1f2f8" font-family="Arial, sans-serif" font-size="27" font-weight="700">Your sitemap report</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(60 570)"><rect width="310" height="125" rx="12" fill="#0d1020" stroke="#30344c"/><text x="24" y="38" fill="#b1b6ca" font-size="14">URL entries</text><text x="24" y="92" fill="#f1f2f8" font-size="38" font-weight="700">48</text></g>
+    <g transform="translate(397 570)"><rect width="310" height="125" rx="12" fill="#0d1020" stroke="#30344c"/><text x="24" y="38" fill="#b1b6ca" font-size="14">Valid URL format</text><text x="24" y="92" fill="#f1f2f8" font-size="38" font-weight="700">48</text></g>
+    <g transform="translate(734 570)"><rect width="310" height="125" rx="12" fill="#0d1020" stroke="#30344c"/><text x="24" y="38" fill="#b1b6ca" font-size="14">Invalid URL format</text><text x="24" y="92" fill="#f1f2f8" font-size="38" font-weight="700">0</text></g>
+    <g transform="translate(1070 570)"><rect width="310" height="125" rx="12" fill="#0d1020" stroke="#30344c"/><text x="24" y="38" fill="#b1b6ca" font-size="14">Errors / warnings</text><text x="24" y="92" fill="#f1f2f8" font-size="38" font-weight="700">0 / 1</text></g>
+  </g>
+  <rect x="60" y="732" width="1320" height="116" rx="12" fill="#0d1020" stroke="#30344c"/>
+  <rect x="60" y="732" width="1320" height="44" rx="12" fill="#191d30"/>
+  <g fill="#c4c8d8" font-family="Arial, sans-serif" font-size="14" font-weight="700"><text x="86" y="760">URL</text><text x="680" y="760">Format</text><text x="890" y="760">HTTP</text><text x="1050" y="760">Source sitemap</text></g>
+  <g fill="#f1f2f8" font-family="Arial, sans-serif" font-size="14"><text x="86" y="816">https://example.com/</text><text x="680" y="816">Valid format</text><text x="890" y="816">200</text><text x="1050" y="816">https://example.com/sitemap.xml</text></g>
+</svg>
+

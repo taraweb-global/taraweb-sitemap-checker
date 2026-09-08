@@ -1,0 +1,17 @@
+TaraWeb Sitemap Checker
+Maintained and enhanced by TaraWeb — https://taraweb.tech
+
+Derived from @trybyte/sitemap-validator 1.0.4 by Byte Team (trybyte.app).
+Upstream revision: a7fc287eeb6e5dc2c2e2b4b212fdcd2c5129ae0d
+Upstream repository: https://github.com/trybyte-app/sitemap-validator
+Licensed under the Apache License, Version 2.0. See LICENSE.
+The upstream distribution did not include a separate NOTICE file.
+
+TaraWeb added the web UI, pinned public-network fetch transport, bounded web
+audit service, exports, web tests, CI and deployment documentation. TaraWeb
+modified package metadata, TypeScript type isolation, Windows test assertions
+and gzip source cancellation. Original validator attribution is retained.
+Modified JSON configuration and generated dist files are identified here;
+generated files correspond to the marked source files. No endorsement by the
+upstream authors is implied. Upstream trademarks remain with their owners.
+
